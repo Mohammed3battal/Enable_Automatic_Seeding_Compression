@@ -1,0 +1,7 @@
+
+DBCC TRACEON (9567, -1);
+GO
+
+-- Check the status of trace flag 9567
+DBCC TRACESTATUS (9567, -1);
+GO
